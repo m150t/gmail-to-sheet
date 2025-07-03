@@ -35,7 +35,7 @@ Google Apps Script（GAS）を使って、クラウドワークスから届く�
 
 ## セットアップ手順
 1. Google スプレッドシートを作成
-2. 拡張機能 > Apps Script を開いて、本リポジトリの `	extract-emails.gs` 、 `filter-rows.gs` をコピー
+2. 拡張機能 > Apps Script を開いて、本リポジトリの `extract-emails.gs` 、 `filter-rows.gs` をコピー
 3. スクリプトに Gmail、スプレッドシートの読み取り権限を付与
 4. メニュー「トリガー」から `extractCrowdWorksEmails` を定期実行（1時間ごとなど）
 5. F列にステータスを記入することで応募の管理が可能に
